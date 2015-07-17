@@ -46,7 +46,7 @@ jQuery.platform.unknown = !(jQuery.platform.windows ||
                             jQuery.platform.unix || 
                             jQuery.platform.linux);
 
-function envoronmentDetect(browser, device, os) {
+function environmentDetect(browser, device, os) {
   var html = $("html");
   if(browser) {
     if(jQuery.browser.chrome) html.addClass('chrome');
